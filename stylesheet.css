@@ -30,9 +30,16 @@ html {
 .flex-h {
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
 }
 
 #calltoaction {
     color: white;
     background-color: #3882f6;
+}
+
+.headerlinks {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
 }
