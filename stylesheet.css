@@ -3,8 +3,8 @@ html {
 }
 
 .outer {
-    padding-left: 300px;
-    padding-right: 300px;
+    padding-left: 20%;
+    padding-right: 20%;
 }
 
 .dark {
@@ -21,6 +21,19 @@ html {
     font-size: 18px;
     color: #e5e7eb;
     padding-left: 0px;
+    padding-bottom: 10px;
+}
+
+#signup {
+    background-color: #3882f6;
+    border-radius: 10px;
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 5px;
+    font-weight: bold;
+    text-align: center;
+    width: 100px;
 }
 
 #title {
@@ -33,6 +46,10 @@ html {
     justify-content: space-around;
 }
 
+.flex-h div {
+    flex: 1 1 0%;
+}
+
 #calltoaction {
     color: white;
     background-color: #3882f6;
@@ -41,5 +58,24 @@ html {
 .headerlinks {
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#hero {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#left {
+    padding-right: 50px;
+}
+
+#right {
+    /* This will be replaced with an appropriate image */
+    display: flex;
+    background-color: grey;
+    justify-content: center;
+    align-items: center;
 }
