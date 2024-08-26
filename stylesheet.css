@@ -55,7 +55,7 @@ html {
     background-color: #3882f6;
 }
 
-.headerlinks {
+.centertext {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -78,4 +78,11 @@ html {
     background-color: grey;
     justify-content: center;
     align-items: center;
+}
+
+#infoheader {
+    color: #1F2937;
+    font: 36px extra-bold;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
