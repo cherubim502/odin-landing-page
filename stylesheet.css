@@ -86,3 +86,20 @@ html {
     padding-top: 50px;
     padding-bottom: 50px;
 }
+
+.gallery {
+    display: flex;
+    flex: 1 1 0%;
+    justify-content: center;
+}
+
+.pic {
+    border: 3px solid #3882f6;
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+}
+
+.pic-container {
+    width: 120px;
+}
