@@ -105,3 +105,21 @@ html {
     width: 120px;
     padding: 10px;
 }
+
+.quote {
+    font: 36px light italic;
+    color: #1F2937;
+}
+
+.spacing {
+    background-color: #E5E7EB;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#quoteowner {
+    font: bold;
+    text-align: right;
+    font-weight: bold;
+    font-size: 20px;
+}
